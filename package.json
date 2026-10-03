@@ -1,0 +1,28 @@
+{
+  "name": "todo-webapp-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack ToDo web application built with React, Express, MongoDB, and JWT authentication.",
+  "type": "module",
+  "scripts": {
+    "dev": "parcel ./src/index.html --port 1234",
+    "build": "parcel build ./src/index.html --dist-dir dist --no-cache",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.0.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  }
+}
